@@ -1,0 +1,42 @@
+# Eclipse files
+.project
+.classpath
+.settings
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Target folders
+target/
+build/
+out/
+fixserver/
+fixclient/
+
+## Vim ##
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+## Secrets ##
+client-secret.json
+exchange-maven-repo.json
+
+# Others
+.DS_Store
+exchange.tar.gz
+microservices_log
+.honcho_pid
+
+# Sequencer-related logs
+store-*
+.honcho_pid
+logs/*
